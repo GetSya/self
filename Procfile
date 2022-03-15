@@ -1,7 +1,1 @@
-{
-	"clientID": "xx5R5KUgddmJcpDqn7rH1Q==",
-	"serverToken": "1@Yqs0TZ8bFhnZe3fOemXDRyj6YHdmjVSEaBuRLBEcH5dnS8MrJKJulb9AcXccSHym9Vly19367ASz0g==",
-	"clientToken": "IGuwg7uVw5WNLYCb37i3Rr6R0NEsoYW/oeZ9ixFpYVA=",
-	"encKey": "h2Cyrb7dP8n5MBmiFdHTPJi5yKmOG5Uii7fi/hF6E7A=",
-	"macKey": "1oc6xn3yHekMz0MQP5rF6P7921EESaYPeXN/AnZ0Xok="
-}
+worker: npm i -g pm2 && pm2 start main.js && pm2 save && pm2 logs
